@@ -41,6 +41,8 @@ public class StringPasswordExtract {
 		Thread.sleep(2000);
 		driver.findElement(By.className("signInBtn")).click();
 		System.out.println("THis is sending into git repoistry");
+		System.out.println("THis is sending into git repoistry");
+		System.out.println("THis is sending into git repoistry");
 
 		
 		
