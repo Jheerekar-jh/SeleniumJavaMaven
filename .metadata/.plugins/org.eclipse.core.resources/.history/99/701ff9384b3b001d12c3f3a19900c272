@@ -1,0 +1,19 @@
+package JavaPackage;
+
+public class ClassAndObjects {
+
+	public static void main(String[] args) 
+	{
+		
+		ClassAndObjects	 gd=new ClassAndObjects();
+		gd.getData();
+		
+
+	}
+	
+	public void getData()
+	{
+		System.out.println("This is getData method");
+	}
+
+}

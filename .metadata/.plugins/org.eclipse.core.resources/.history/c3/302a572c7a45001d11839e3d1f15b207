@@ -1,0 +1,30 @@
+package LocatersConcepts;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SeleniumIntroduction {
+
+	public static void main(String[] args) {
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\61478\\Documents\\Selenium-CoreJava\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/locatorspractice/");
+		String title=driver.getTitle();
+		System.out.println(title);
+		//driver.close();// THis will close current window
+		//driver.quit(); // This is suitable when multiple windows are open
+
+		//System.out.println(System.getProperty("user.dir"));
+		//System.getProperty("user.dir");
+		
+		driver.findElement(By.id("inputUsername")).sendKeys("rahulshettyacademy");
+		driver.findElement(By.name("inputPassword")).sendKeys("");
+		
+		driver.findElement(By.className("submit")).click();
+
+
+	}
+
+}

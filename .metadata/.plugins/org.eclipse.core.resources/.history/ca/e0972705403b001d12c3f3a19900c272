@@ -1,0 +1,19 @@
+package JavaPackage;
+
+public class DataTypeAndVariable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int myNum=5;
+		String website ="This is Jaswanth";
+		char letter='r';
+		double dec=5.99;
+		
+		System.out.println(myNum + " "+website + " "+letter +" "+ dec);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package JavaPackage;
+
+public class ClassAndObjects {
+
+	public static void main(String[] args) 
+	{
+		
+		ClassAndObjects	 gd=new ClassAndObjects();
+		gd.getData();
+		String s=gd.getString();
+		System.out.println(s);
+		
+
+	}
+	
+	public void getData()
+	{
+		System.out.println("This is getData method");
+	}
+
+	
+	public String getString()
+	{
+		System.out.println("This methods return string");
+		return"This methods return string";
+	}
+}

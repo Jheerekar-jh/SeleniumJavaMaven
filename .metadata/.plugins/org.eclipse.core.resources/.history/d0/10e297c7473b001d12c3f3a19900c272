@@ -1,0 +1,92 @@
+package JavaPackage;
+
+import java.util.ArrayList;
+
+public class DataTypeAndVariable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int myNum=5;
+		String website ="This is Jaswanth";
+		char letter='r';
+		double dec=5.99;
+
+		System.out.println(myNum + " "+website + " "+letter +" "+ dec);	
+		//Creating Array
+		int[] arr= new int[5];
+		arr[0]=1;
+		arr[1]=2;
+		arr[2]=4;
+		arr[3]=3;
+		arr[4]=6;
+
+		int[] arr2= {0,1,2,3,4,5,6,7,8,9,10};
+
+		for(int i=0; i < arr.length; i++)
+		{
+			System.out.println(arr[i]);
+		}
+		String[] a= {"Jaswanth","Heerekar","Nyra","Amulya"};
+
+		for(String s:a)
+		{
+			System.out.println(s);
+		}
+
+		for(int j=0;j<arr2.length;j++)
+		{
+			if(arr2[j]%2==0)
+			{
+				System.out.println(arr2[j]);
+			}
+			else
+			{
+				System.out.println("This is not multiple of 2" + " "+":"+arr2[j]);
+			}
+		}
+
+
+		// Array List
+
+		ArrayList<String> al= new ArrayList<String>();
+		al.add("Jaswanth");
+		al.add("Heerekar");
+		al.add("Nyra Heerekar");
+
+		System.out.println(al);
+		System.out.println(al.get(2));
+
+		//Different ways of defining Strings
+
+		String s1="Jaswanth  Nyra  Heerekar";
+		String s2="Jaswanth Heerekar";
+
+		String s3=new String("Jaswanth");
+		String s4=new String("Nyra Heerekar");
+
+		String[] SplittedString=s1.split(" ");
+
+		for(int z=0; z<SplittedString.length;z++)
+		{
+			if(SplittedString[z].equals("Nyra"))
+
+				break;
+			System.out.println(SplittedString[z].trim());
+		}
+
+
+
+		for(String st:SplittedString) 
+
+		{ 
+			System.out.println(st.trim());
+		}
+
+
+
+
+
+	}
+
+}
