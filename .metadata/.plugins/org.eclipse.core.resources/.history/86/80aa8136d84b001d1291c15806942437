@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AutoSuggestiveDropDown {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		
@@ -20,22 +20,9 @@ public class AutoSuggestiveDropDown {
 		
 		//Classname
 		
-		driver.findElement(By.id("autosuggest")).sendKeys("Ind");
-		Thread.sleep(2000);
-		List<WebElement> auto=driver.findElements(By.xpath("//ul[@id='ui-id-1']/li/a"));
-		
-		for(WebElement a:auto)
-		{
-			if(a.getText().equals("India"))
-			{
-				a.click();
-				break;
-			}
-			System.out.println(a.getText());
-		}
-		
-		
-		
+		WebElement autoSuggestive=driver.findElement(By.id("autosuggest"));
+		autoSuggestive.click();
+		autoSuggestive.sendKeys("aus");
 	
 		
 		
