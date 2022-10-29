@@ -23,8 +23,6 @@ public class CheckBoxes {
 			{
 				options.click();
 				break;
-				
-				//System.out.println("");
 
 			}
 
