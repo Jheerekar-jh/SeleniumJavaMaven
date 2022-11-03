@@ -8,5 +8,16 @@ public class TestNgFirstClass {
 	{
 		System.out.println("This is TestNg First Class");
 	}
+	
+
+	@Test
+	public void secondMethod()
+	{
+		System.out.println("This is second method");
+	}
+	
+	
+	
+	
 
 }

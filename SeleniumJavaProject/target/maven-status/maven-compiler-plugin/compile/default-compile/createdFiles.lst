@@ -8,6 +8,7 @@ JavaPackage\ExampleChildInheritance.class
 JavaPackage\ConstructorClass.class
 JavaPackage\ClassAndObjects.class
 LocatersConcepts\SeleniumIntroduction.class
+TestNgTest\TestNgSecondClass.class
 JavaPackage\ExampleparentInheritance.class
 JavaPackage\ReverseString.class
 JavaPackage\AbstractParentclass.class

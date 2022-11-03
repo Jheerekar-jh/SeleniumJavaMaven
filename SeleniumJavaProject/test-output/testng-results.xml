@@ -1,17 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-31T23:18:13 AEST" name="Default suite" finished-at="2022-10-31T23:18:13 AEST" duration-ms="47">
+  <suite started-at="2022-11-03T23:16:45 AEST" name="testAuotmation" finished-at="2022-11-03T23:16:45 AEST" duration-ms="90">
     <groups>
     </groups>
-    <test started-at="2022-10-31T23:18:13 AEST" name="Default test" finished-at="2022-10-31T23:18:13 AEST" duration-ms="47">
+    <test started-at="2022-11-03T23:16:45 AEST" name="Test" finished-at="2022-11-03T23:16:45 AEST" duration-ms="90">
+      <class name="TestNgTest.TestNgSecondClass">
+        <test-method signature="SecondClass()[pri:0, instance:TestNgTest.TestNgSecondClass@6bd61f98]" started-at="2022-11-03T23:16:45 AEST" name="SecondClass" finished-at="2022-11-03T23:16:45 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondClass -->
+      </class> <!-- TestNgTest.TestNgSecondClass -->
+      <class name="TestNgpackage2.MobileAutomation">
+        <test-method signature="mobile()[pri:0, instance:TestNgpackage2.MobileAutomation@29215f06]" started-at="2022-11-03T23:16:45 AEST" name="mobile" finished-at="2022-11-03T23:16:45 AEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile -->
+        <test-method signature="mobile1()[pri:0, instance:TestNgpackage2.MobileAutomation@29215f06]" started-at="2022-11-03T23:16:45 AEST" name="mobile1" finished-at="2022-11-03T23:16:45 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile1 -->
+        <test-method signature="mobile2()[pri:0, instance:TestNgpackage2.MobileAutomation@29215f06]" started-at="2022-11-03T23:16:45 AEST" name="mobile2" finished-at="2022-11-03T23:16:45 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile2 -->
+      </class> <!-- TestNgpackage2.MobileAutomation -->
+      <class name="TestNgpackage2.APIAutomation">
+        <test-method signature="api()[pri:0, instance:TestNgpackage2.APIAutomation@71a8adcf]" started-at="2022-11-03T23:16:45 AEST" name="api" finished-at="2022-11-03T23:16:45 AEST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="api1()[pri:0, instance:TestNgpackage2.APIAutomation@71a8adcf]" started-at="2022-11-03T23:16:45 AEST" name="api1" finished-at="2022-11-03T23:16:45 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api1 -->
+        <test-method signature="api2()[pri:0, instance:TestNgpackage2.APIAutomation@71a8adcf]" started-at="2022-11-03T23:16:45 AEST" name="api2" finished-at="2022-11-03T23:16:45 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api2 -->
+      </class> <!-- TestNgpackage2.APIAutomation -->
       <class name="TestNgTest.TestNgFirstClass">
-        <test-method signature="demo()[pri:0, instance:TestNgTest.TestNgFirstClass@2805d709]" started-at="2022-10-31T23:18:13 AEST" name="demo" finished-at="2022-10-31T23:18:13 AEST" duration-ms="8" status="PASS">
+        <test-method signature="demo()[pri:0, instance:TestNgTest.TestNgFirstClass@4efac082]" started-at="2022-11-03T23:16:45 AEST" name="demo" finished-at="2022-11-03T23:16:45 AEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
+        <test-method signature="secondMethod()[pri:0, instance:TestNgTest.TestNgFirstClass@4efac082]" started-at="2022-11-03T23:16:45 AEST" name="secondMethod" finished-at="2022-11-03T23:16:45 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondMethod -->
       </class> <!-- TestNgTest.TestNgFirstClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestNgpackage2.SeleniumAutomation">
+        <test-method signature="selenium()[pri:0, instance:TestNgpackage2.SeleniumAutomation@59505b48]" started-at="2022-11-03T23:16:45 AEST" name="selenium" finished-at="2022-11-03T23:16:45 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium -->
+        <test-method signature="selenium1()[pri:0, instance:TestNgpackage2.SeleniumAutomation@59505b48]" started-at="2022-11-03T23:16:45 AEST" name="selenium1" finished-at="2022-11-03T23:16:45 AEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium1 -->
+        <test-method signature="selenium2()[pri:0, instance:TestNgpackage2.SeleniumAutomation@59505b48]" started-at="2022-11-03T23:16:45 AEST" name="selenium2" finished-at="2022-11-03T23:16:45 AEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium2 -->
+      </class> <!-- TestNgpackage2.SeleniumAutomation -->
+    </test> <!-- Test -->
+  </suite> <!-- testAuotmation -->
 </testng-results>
