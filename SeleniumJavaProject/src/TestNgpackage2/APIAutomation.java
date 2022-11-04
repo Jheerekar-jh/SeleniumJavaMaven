@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class APIAutomation {
 	
-	@Test
+	@Test(groups={"Smoke"})
 	public void api()
 	{
 		System.out.println("this is api from API Automation");

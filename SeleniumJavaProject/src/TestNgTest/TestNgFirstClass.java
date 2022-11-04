@@ -10,7 +10,7 @@ public class TestNgFirstClass {
 	}
 	
 
-	@Test
+	@Test(groups={"Smoke"})
 	public void secondMethod()
 	{
 		System.out.println("This is second method");

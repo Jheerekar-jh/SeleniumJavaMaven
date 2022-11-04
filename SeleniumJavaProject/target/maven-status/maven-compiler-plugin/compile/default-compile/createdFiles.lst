@@ -1,3 +1,4 @@
+TestNgpackage2\SeleniumAutomation.class
 JavaPackage\ParentInheritance.class
 LocatersConcepts\StaticDropDown.class
 LocatersConcepts\EndtoEndFSpicejet.class
@@ -14,6 +15,7 @@ JavaPackage\ReverseString.class
 JavaPackage\AbstractParentclass.class
 LocatersConcepts\CheckBoxes.class
 LocatersConcepts\CSSRegularExpression.class
+TestNgpackage2\APIAutomation.class
 JavaPackage\AustraliaTrafficRulesInterfaceImplementing.class
 JavaPackage\DateAndTime.class
 LocatersConcepts\StringPasswordExtract.class
@@ -23,6 +25,7 @@ LocatersConcepts\CheckOutCart.class
 LocatersConcepts\SiblingToSibling.class
 JavaPackage\Modifiers.class
 JavaPackage\CentralTrafficInterface.class
+TestNgpackage2\MobileAutomation.class
 JavaPackage\ChildInheritance.class
 JavaPackage\MultiArray.class
 LocatersConcepts\check.class

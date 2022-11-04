@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class MobileAutomation {
 	
-	@Test
+	@Test(groups={"Smoke"})
 	public void mobile()
 	{
 		System.out.println("this is mobile from mobile Automation");

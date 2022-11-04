@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testAuotmation">
+  <test thread-count="5" name="package1">  <!-- This is coming from TestNgpackage2 -->
+  <groups>
+    <run>
+    <include name="Smoke"/>    <!-- Running only Smoke Test -->
+     </run>      
+     </groups>    
+    <classes>
+     <class name="TestNgpackage2.APIAutomation"/>
+     <class name="TestNgpackage2.MobileAutomation"/>
+     <class name="TestNgpackage2.SeleniumAutomation"/>       
+    </classes>   
+  </test> <!-- Test -->
+  
+  <test name="package2"> <!-- This is coming from TestNgTest -->
+  <groups>
+    <run>
+    <include name="Smoke"/>    <!-- Running only Smoke Test -->
+     </run>      
+     </groups> 
+  
+  <classes>
+  <class name="TestNgTest.TestNgFirstClass"/>
+  <class name="TestNgTest.TestNgSecondClass"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->
+
