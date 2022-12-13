@@ -65,7 +65,7 @@
           <!-- <suiteXmlFile>PackageTestNg.xml</suiteXmlFile> -->
            <!-- <suiteXmlFile>GroupsTestNg.xml</suiteXmlFile> -->
             <!--<suiteXmlFile>AnnotationsAttributes.xml</suiteXmlFile>-->
-            <suiteXmlFile>parametersAttributes.xml</suiteXmlFile>
+            <suiteXmlFile>testSuites/parametersAttributes.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
